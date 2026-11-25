@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { RootLayout } from './layouts/root-layout';
 import { DashboardPage } from './pages/dashboard/dashboard-page';
-
+import { NotFoundPage } from './pages/not-found/not-found-page';
 
 export const router = createBrowserRouter([
     {
@@ -12,7 +12,6 @@ export const router = createBrowserRouter([
                 index: true,
                 element: <DashboardPage />,
             },
-        
         ],
     },
     {
